@@ -31,9 +31,9 @@ This Terraform project creates:
 
 ## How to Use
 
-```terraform init        # Download providers & initialize the working directory```
-```terraform plan        # Preview the changes Terraform will make```
-```terraform apply       # Apply and provision the infrastructure```
+```terraform init  # Download providers & initialize the working directory```
+```terraform plan  # Preview the changes Terraform will make```
+```terraform apply # Apply and provision the infrastructure```
 
 
 
