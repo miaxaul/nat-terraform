@@ -5,17 +5,18 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This Terraform project creates:
-- 🟩 1 **NAT Instance** inside a public subnet
-- 🔒 2 **EC2 Instances (Private Subnet)** running basic HTML web servers
-- 🌐 1 **Application Load Balancer (ALB)** to serve private instances via DNS
-- 📤 Outputs: NAT Instance **public IP** and ALB **DNS name**
+- 1 **NAT Instance** inside a public subnet
+- 2 **EC2 Instances (Private Subnet)** running basic HTML web servers
+- 1 **Application Load Balancer (ALB)** to serve private instances via DNS
+- Variables : save region, ami id, key pair
+- Outputs: NAT Instance **public IP** and ALB **DNS name**
 
 ---
 
-## ☁️ AWS Resources Used
+## AWS Resources Used
 
 - `VPC`, `Subnets` (public & private), `Route Tables`
 - `Security Groups`
